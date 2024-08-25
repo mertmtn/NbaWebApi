@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nba.Core.IDbSettings
+  commentId: T:Nba.Core.IDbSettings
+  id: IDbSettings
+  parent: Nba.Core
+  children:
+  - Nba.Core.IDbSettings.Collection
+  - Nba.Core.IDbSettings.ConnectionString
+  - Nba.Core.IDbSettings.Database
+  langs:
+  - csharp
+  - vb
+  name: IDbSettings
+  nameWithType: IDbSettings
+  fullName: Nba.Core.IDbSettings
+  type: Interface
+  source:
+    remote:
+      path: src/Nba.Core/Settings/IDbSettings.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: IDbSettings
+    path: ../src/Nba.Core/Settings/IDbSettings.cs
+    startLine: 2
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: public interface IDbSettings
+    content.vb: Public Interface IDbSettings
+- uid: Nba.Core.IDbSettings.ConnectionString
+  commentId: P:Nba.Core.IDbSettings.ConnectionString
+  id: ConnectionString
+  parent: Nba.Core.IDbSettings
+  langs:
+  - csharp
+  - vb
+  name: ConnectionString
+  nameWithType: IDbSettings.ConnectionString
+  fullName: Nba.Core.IDbSettings.ConnectionString
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Settings/IDbSettings.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: ConnectionString
+    path: ../src/Nba.Core/Settings/IDbSettings.cs
+    startLine: 4
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: string ConnectionString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ConnectionString As String
+  overload: Nba.Core.IDbSettings.ConnectionString*
+- uid: Nba.Core.IDbSettings.Database
+  commentId: P:Nba.Core.IDbSettings.Database
+  id: Database
+  parent: Nba.Core.IDbSettings
+  langs:
+  - csharp
+  - vb
+  name: Database
+  nameWithType: IDbSettings.Database
+  fullName: Nba.Core.IDbSettings.Database
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Settings/IDbSettings.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Database
+    path: ../src/Nba.Core/Settings/IDbSettings.cs
+    startLine: 5
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: string Database { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Database As String
+  overload: Nba.Core.IDbSettings.Database*
+- uid: Nba.Core.IDbSettings.Collection
+  commentId: P:Nba.Core.IDbSettings.Collection
+  id: Collection
+  parent: Nba.Core.IDbSettings
+  langs:
+  - csharp
+  - vb
+  name: Collection
+  nameWithType: IDbSettings.Collection
+  fullName: Nba.Core.IDbSettings.Collection
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Settings/IDbSettings.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Collection
+    path: ../src/Nba.Core/Settings/IDbSettings.cs
+    startLine: 6
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: string Collection { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Collection As String
+  overload: Nba.Core.IDbSettings.Collection*
+references:
+- uid: Nba.Core
+  commentId: N:Nba.Core
+  href: Nba.html
+  name: Nba.Core
+  nameWithType: Nba.Core
+  fullName: Nba.Core
+  spec.csharp:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html
+  spec.vb:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html
+- uid: Nba.Core.IDbSettings.ConnectionString*
+  commentId: Overload:Nba.Core.IDbSettings.ConnectionString
+  href: Nba.Core.IDbSettings.html#Nba_Core_IDbSettings_ConnectionString
+  name: ConnectionString
+  nameWithType: IDbSettings.ConnectionString
+  fullName: Nba.Core.IDbSettings.ConnectionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nba.Core.IDbSettings.Database*
+  commentId: Overload:Nba.Core.IDbSettings.Database
+  href: Nba.Core.IDbSettings.html#Nba_Core_IDbSettings_Database
+  name: Database
+  nameWithType: IDbSettings.Database
+  fullName: Nba.Core.IDbSettings.Database
+- uid: Nba.Core.IDbSettings.Collection*
+  commentId: Overload:Nba.Core.IDbSettings.Collection
+  href: Nba.Core.IDbSettings.html#Nba_Core_IDbSettings_Collection
+  name: Collection
+  nameWithType: IDbSettings.Collection
+  fullName: Nba.Core.IDbSettings.Collection

@@ -1,0 +1,615 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nba.Core.Teams
+  commentId: T:Nba.Core.Teams
+  id: Teams
+  parent: Nba.Core
+  children:
+  - Nba.Core.Teams.Abbreviation
+  - Nba.Core.Teams.Id
+  - Nba.Core.Teams.Location
+  - Nba.Core.Teams.SimpleName
+  - Nba.Core.Teams.TeamId
+  - Nba.Core.Teams.TeamName
+  langs:
+  - csharp
+  - vb
+  name: Teams
+  nameWithType: Teams
+  fullName: Nba.Core.Teams
+  type: Class
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Teams
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 5
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: public class Teams
+    content.vb: Public Class Teams
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Nba.Core.Teams.Id
+  commentId: P:Nba.Core.Teams.Id
+  id: Id
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Teams.Id
+  fullName: Nba.Core.Teams.Id
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Id
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 7
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonId]
+
+      [BsonRepresentation(BsonType.ObjectId)]
+
+      public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <BsonId>
+
+      <BsonRepresentation(BsonType.ObjectId)>
+
+      Public Property Id As String
+  overload: Nba.Core.Teams.Id*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonIdAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonIdAttribute.#ctor
+    arguments: []
+  - type: MongoDB.Bson.Serialization.Attributes.BsonRepresentationAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonRepresentationAttribute.#ctor(MongoDB.Bson.BsonType)
+    arguments:
+    - type: MongoDB.Bson.BsonType
+      value: 7
+- uid: Nba.Core.Teams.TeamId
+  commentId: P:Nba.Core.Teams.TeamId
+  id: TeamId
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: TeamId
+  nameWithType: Teams.TeamId
+  fullName: Nba.Core.Teams.TeamId
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: TeamId
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 11
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonElement("teamId")]
+
+      public long TeamId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <BsonElement("teamId")>
+
+      Public Property TeamId As Long
+  overload: Nba.Core.Teams.TeamId*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: teamId
+- uid: Nba.Core.Teams.Abbreviation
+  commentId: P:Nba.Core.Teams.Abbreviation
+  id: Abbreviation
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: Abbreviation
+  nameWithType: Teams.Abbreviation
+  fullName: Nba.Core.Teams.Abbreviation
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Abbreviation
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 14
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonElement("abbreviation")]
+
+      public string Abbreviation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <BsonElement("abbreviation")>
+
+      Public Property Abbreviation As String
+  overload: Nba.Core.Teams.Abbreviation*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: abbreviation
+- uid: Nba.Core.Teams.TeamName
+  commentId: P:Nba.Core.Teams.TeamName
+  id: TeamName
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: TeamName
+  nameWithType: Teams.TeamName
+  fullName: Nba.Core.Teams.TeamName
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: TeamName
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 17
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonElement("teamName")]
+
+      public string TeamName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <BsonElement("teamName")>
+
+      Public Property TeamName As String
+  overload: Nba.Core.Teams.TeamName*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: teamName
+- uid: Nba.Core.Teams.SimpleName
+  commentId: P:Nba.Core.Teams.SimpleName
+  id: SimpleName
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: SimpleName
+  nameWithType: Teams.SimpleName
+  fullName: Nba.Core.Teams.SimpleName
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: SimpleName
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 20
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonElement("simpleName")]
+
+      public string SimpleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <BsonElement("simpleName")>
+
+      Public Property SimpleName As String
+  overload: Nba.Core.Teams.SimpleName*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: simpleName
+- uid: Nba.Core.Teams.Location
+  commentId: P:Nba.Core.Teams.Location
+  id: Location
+  parent: Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: Teams.Location
+  fullName: Nba.Core.Teams.Location
+  type: Property
+  source:
+    remote:
+      path: src/Nba.Core/Models/Teams.cs
+      branch: master
+      repo: https://github.com/mertmtn/NbaWebApi.git
+    id: Location
+    path: ../src/Nba.Core/Models/Teams.cs
+    startLine: 23
+  assemblies:
+  - Nba.Core
+  namespace: Nba.Core
+  syntax:
+    content: >-
+      [BsonElement("location")]
+
+      public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <BsonElement("location")>
+
+      Public Property Location As String
+  overload: Nba.Core.Teams.Location*
+  attributes:
+  - type: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute
+    ctor: MongoDB.Bson.Serialization.Attributes.BsonElementAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: location
+references:
+- uid: Nba.Core
+  commentId: N:Nba.Core
+  href: Nba.html
+  name: Nba.Core
+  nameWithType: Nba.Core
+  fullName: Nba.Core
+  spec.csharp:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html
+  spec.vb:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Nba.Core.Teams.Id*
+  commentId: Overload:Nba.Core.Teams.Id
+  href: Nba.Core.Teams.html#Nba_Core_Teams_Id
+  name: Id
+  nameWithType: Teams.Id
+  fullName: Nba.Core.Teams.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Nba.Core.Teams.TeamId*
+  commentId: Overload:Nba.Core.Teams.TeamId
+  href: Nba.Core.Teams.html#Nba_Core_Teams_TeamId
+  name: TeamId
+  nameWithType: Teams.TeamId
+  fullName: Nba.Core.Teams.TeamId
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Nba.Core.Teams.Abbreviation*
+  commentId: Overload:Nba.Core.Teams.Abbreviation
+  href: Nba.Core.Teams.html#Nba_Core_Teams_Abbreviation
+  name: Abbreviation
+  nameWithType: Teams.Abbreviation
+  fullName: Nba.Core.Teams.Abbreviation
+- uid: Nba.Core.Teams.TeamName*
+  commentId: Overload:Nba.Core.Teams.TeamName
+  href: Nba.Core.Teams.html#Nba_Core_Teams_TeamName
+  name: TeamName
+  nameWithType: Teams.TeamName
+  fullName: Nba.Core.Teams.TeamName
+- uid: Nba.Core.Teams.SimpleName*
+  commentId: Overload:Nba.Core.Teams.SimpleName
+  href: Nba.Core.Teams.html#Nba_Core_Teams_SimpleName
+  name: SimpleName
+  nameWithType: Teams.SimpleName
+  fullName: Nba.Core.Teams.SimpleName
+- uid: Nba.Core.Teams.Location*
+  commentId: Overload:Nba.Core.Teams.Location
+  href: Nba.Core.Teams.html#Nba_Core_Teams_Location
+  name: Location
+  nameWithType: Teams.Location
+  fullName: Nba.Core.Teams.Location

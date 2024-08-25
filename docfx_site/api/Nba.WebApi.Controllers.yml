@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nba.WebApi.Controllers
+  commentId: N:Nba.WebApi.Controllers
+  id: Nba.WebApi.Controllers
+  children:
+  - Nba.WebApi.Controllers.TeamsController
+  langs:
+  - csharp
+  - vb
+  name: Nba.WebApi.Controllers
+  nameWithType: Nba.WebApi.Controllers
+  fullName: Nba.WebApi.Controllers
+  type: Namespace
+  assemblies:
+  - Nba.WebApi
+references:
+- uid: Nba.WebApi.Controllers.TeamsController
+  commentId: T:Nba.WebApi.Controllers.TeamsController
+  href: Nba.WebApi.Controllers.TeamsController.html
+  name: TeamsController
+  nameWithType: TeamsController
+  fullName: Nba.WebApi.Controllers.TeamsController

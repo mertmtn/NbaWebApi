@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nba.Core
+  commentId: N:Nba.Core
+  id: Nba.Core
+  children:
+  - Nba.Core.IDbSettings
+  - Nba.Core.MongoDbSettings
+  - Nba.Core.NbaService
+  - Nba.Core.Teams
+  langs:
+  - csharp
+  - vb
+  name: Nba.Core
+  nameWithType: Nba.Core
+  fullName: Nba.Core
+  type: Namespace
+  assemblies:
+  - Nba.Core
+references:
+- uid: Nba.Core.Teams
+  commentId: T:Nba.Core.Teams
+  parent: Nba.Core
+  href: Nba.Core.Teams.html
+  name: Teams
+  nameWithType: Teams
+  fullName: Nba.Core.Teams
+- uid: Nba.Core.NbaService
+  commentId: T:Nba.Core.NbaService
+  href: Nba.Core.NbaService.html
+  name: NbaService
+  nameWithType: NbaService
+  fullName: Nba.Core.NbaService
+- uid: Nba.Core.IDbSettings
+  commentId: T:Nba.Core.IDbSettings
+  parent: Nba.Core
+  href: Nba.Core.IDbSettings.html
+  name: IDbSettings
+  nameWithType: IDbSettings
+  fullName: Nba.Core.IDbSettings
+- uid: Nba.Core.MongoDbSettings
+  commentId: T:Nba.Core.MongoDbSettings
+  href: Nba.Core.MongoDbSettings.html
+  name: MongoDbSettings
+  nameWithType: MongoDbSettings
+  fullName: Nba.Core.MongoDbSettings
+- uid: Nba.Core
+  commentId: N:Nba.Core
+  href: Nba.html
+  name: Nba.Core
+  nameWithType: Nba.Core
+  fullName: Nba.Core
+  spec.csharp:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html
+  spec.vb:
+  - uid: Nba
+    name: Nba
+    href: Nba.html
+  - name: .
+  - uid: Nba.Core
+    name: Core
+    href: Nba.Core.html

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Nba.WebApi
+  commentId: N:Nba.WebApi
+  id: Nba.WebApi
+  children:
+  - Nba.WebApi.Program
+  - Nba.WebApi.Startup
+  langs:
+  - csharp
+  - vb
+  name: Nba.WebApi
+  nameWithType: Nba.WebApi
+  fullName: Nba.WebApi
+  type: Namespace
+  assemblies:
+  - Nba.WebApi
+references:
+- uid: Nba.WebApi.Program
+  commentId: T:Nba.WebApi.Program
+  href: Nba.WebApi.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: Nba.WebApi.Program
+- uid: Nba.WebApi.Startup
+  commentId: T:Nba.WebApi.Startup
+  href: Nba.WebApi.Startup.html
+  name: Startup
+  nameWithType: Startup
+  fullName: Nba.WebApi.Startup

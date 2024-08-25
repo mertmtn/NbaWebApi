@@ -1,0 +1,26 @@
+### YamlMime:TableOfContent
+items:
+- uid: Nba.Core
+  name: Nba.Core
+  items:
+  - uid: Nba.Core.IDbSettings
+    name: IDbSettings
+  - uid: Nba.Core.MongoDbSettings
+    name: MongoDbSettings
+  - uid: Nba.Core.NbaService
+    name: NbaService
+  - uid: Nba.Core.Teams
+    name: Teams
+- uid: Nba.WebApi
+  name: Nba.WebApi
+  items:
+  - uid: Nba.WebApi.Program
+    name: Program
+  - uid: Nba.WebApi.Startup
+    name: Startup
+- uid: Nba.WebApi.Controllers
+  name: Nba.WebApi.Controllers
+  items:
+  - uid: Nba.WebApi.Controllers.TeamsController
+    name: TeamsController
+memberLayout: SamePage
