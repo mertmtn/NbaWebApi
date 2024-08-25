@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nba.Web.Test", "Nba.Web.Test\Nba.Web.Test.csproj", "{DE25C6E3-69BC-4DD8-9E26-5B36891D65BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nba.Core", "Nba.Core\Nba.Core.csproj", "{60F1718B-3771-4701-A236-F341377958D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nba.Core", "src\Nba.Core\Nba.Core.csproj", "{60F1718B-3771-4701-A236-F341377958D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nba.WebApi", "Nba.WebApi\Nba.WebApi.csproj", "{A0F8DA33-CB5D-4277-B6A8-AE0D403FE414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nba.WebApi", "src\Nba.WebApi\Nba.WebApi.csproj", "{A0F8DA33-CB5D-4277-B6A8-AE0D403FE414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
